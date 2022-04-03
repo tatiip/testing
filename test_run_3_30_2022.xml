@@ -1,0 +1,1018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<run>
+	<id>R1</id>
+	<name>Test Run 3/30/2022</name>
+	<description></description>
+	<config></config>
+	<createdon>2022-03-30T18:42:15Z</createdon>
+		<completed>false</completed>
+		<milestone></milestone>
+	<stats>
+										<passed>
+			<percent>62</percent>
+			<count>13</count>
+		</passed>
+											<blocked>
+			<percent>0</percent>
+			<count>0</count>
+		</blocked>
+											<untested>
+			<percent>0</percent>
+			<count>0</count>
+		</untested>
+											<retest>
+			<percent>0</percent>
+			<count>0</count>
+		</retest>
+											<failed>
+			<percent>38</percent>
+			<count>8</count>
+		</failed>
+																																																				</stats>	<sections>
+		<section>
+		<name>New User Registration</name>
+		<description>The first step - user email registration</description>
+										<sections>
+		<section>
+		<name>Sub1</name>
+		<description></description>
+						<tests>
+																																																									<test>
+				<id>T1</id>
+				<title>Page</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>Open the page and find the required window</preconds>
+										<steps_separated><step>
+<index>1</index><content>Open page http://automationpractice.com/index.php?controller=authentication&amp;back=my-account#account-creation</content><expected>The page was open successfully
+
+</expected></step>
+<step>
+<index>2</index><content>Find the registration window for new user</content><expected>The window was founded</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C1</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-30T18:43:29Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-03-30T18:42:15Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T2</id>
+				<title>DotAsTheFirstSymbol</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>The first symbol check - a dot as the first symbol of an email </preconds>
+										<steps_separated><step>
+<index>1</index><content>Write the email .fgjks12@gmail.com
+</content><expected>Input completed
+
+</expected></step>
+<step>
+<index>2</index><content>Click on the button &quot;Create an account&quot;</content><expected>The system indicated that the email address is invalid 
+</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C2</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-30T18:44:34Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-03-30T18:42:15Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T3</id>
+				<title>Letters</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>Email can only be written in latin letters
+
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Write an email fgjks12@gmail.com in latin letters</content><expected>Input completed</expected></step>
+<step>
+<index>2</index><content>Click on the button &quot;Create an account&quot;
+</content><expected>The email is valid and the page takes the user to the next registration step</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C3</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-30T18:45:22Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-03-30T18:42:15Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																																											<test>
+				<id>T4</id>
+				<title>Letters2</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>Email can only be written in latin letters 2.0</preconds>
+										<steps_separated><step>
+<index>1</index><content>Write an email ыслрты@mail.ru</content><expected>Input completed</expected></step>
+<step>
+<index>2</index><content>Click on the button &quot;Create an account&quot;</content><expected>The email is invalid</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C4</caseid>
+																<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-30T18:54:22Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>Email was written in Russian but the system found the email to be valid.
+Bug in available language</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																														<custom>
+														<step_results><step>
+<content>Write an email in any language expect for latin </content><expected>Input completed</expected><actual></actual><status>Untested</status></step>
+<step>
+<content>Click on the button &quot;Create an account&quot;</content><expected>The email is invalid</expected><actual></actual><status>Untested</status></step>
+</step_results>
+													</custom>
+											</change>
+															<change>
+						<createdon>2022-03-30T18:53:37Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status></status>
+												<assignedto></assignedto>
+												<comment>Email was written in Russian but the system found the email to be valid.
+Bug in available language</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-03-30T18:42:15Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T5</id>
+				<title>Numbers</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>Any email consists of a username and a hostname which are separated by the sign &quot;@&quot;.
+Username may contain numbers. 
+Checking the possibility of using numbers in username.</preconds>
+										<steps_separated><step>
+<index>1</index><content>Write an email jskbf78@yandex.ru 
+</content><expected>Input completed</expected></step>
+<step>
+<index>2</index><content>Click on the button &quot;Create an account&quot;</content><expected>The email is valid and the page takes the user to the next registration step</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C5</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-31T13:59:53Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-03-30T18:42:15Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T6</id>
+				<title>Symbols</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>Any email consists of a username and a hostname which are separated by the &quot;@&quot;.
+Username may contain symbols:  ! # $ % &amp; ‘ * + — / =? ^ _ ` { | } ~
+Checking the possibility of using symbols in an username.
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Write the email sj$hchf#@mail.ru</content><expected>Input completed</expected></step>
+<step>
+<index>2</index><content>Click on the button &quot;Create an account&quot;</content><expected>The email is valid and the page takes the user to the next registration step</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C6</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-31T14:02:45Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-03-30T18:42:15Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																																											<test>
+				<id>T7</id>
+				<title>DotAsTheLastSymbol</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>The last symbol check - a dot can not be the last symbol in a username of email</preconds>
+										<steps_separated><step>
+<index>1</index><content>Write the email dsuhki.@gmail.com</content><expected>Input completed</expected></step>
+<step>
+<index>2</index><content>Click on the button &quot;Create an account&quot;</content><expected>The email is invalid</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C7</caseid>
+																<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-31T22:46:38Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>A dot as the last character in the username was allowed by system - bug</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																														<custom>
+														<step_results><step>
+<content>Write the email dsuhki.@gmail.com</content><expected>Input completed</expected><actual></actual><status>Passed</status></step>
+<step>
+<content>Click on the button &quot;Create an account&quot;</content><expected>The email is invalid</expected><actual></actual><status>Failed</status></step>
+</step_results>
+													</custom>
+											</change>
+															<change>
+						<createdon>2022-03-31T14:03:07Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-03-30T18:42:15Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T8</id>
+				<title>DotWithoutRepetition</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>Email can not contain 2 and more dots in a row</preconds>
+										<steps_separated><step>
+<index>1</index><content>Write the email hulgs..s@mail.ru</content><expected>Input completed</expected></step>
+<step>
+<index>2</index><content>Click on the button &quot;Create an account&quot;</content><expected>The email is invalid</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C8</caseid>
+																<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-31T14:08:59Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>2 and more dots were allowed by system - bug</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																														<custom>
+														<step_results><step>
+<content>Use two dots in a row in the username </content><expected>Input completed</expected><actual></actual><status>Passed</status></step>
+<step>
+<content>Click on the button &quot;Create an account&quot;</content><expected>The email is invalid</expected><actual></actual><status>Failed</status></step>
+</step_results>
+													</custom>
+											</change>
+															<change>
+						<createdon>2022-03-30T18:42:15Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T9</id>
+				<title>DotInside</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>Any email consists of a username and a hostname which are separated by the &quot;@&quot;.
+Username in email can consist a dot, if it is not the first or the last symbol. </preconds>
+										<steps_separated><step>
+<index>1</index><content>Write the email hugls.s@mail.ru</content><expected>Input completed</expected></step>
+<step>
+<index>2</index><content>Click on the button &quot;Create an account&quot;</content><expected>The email is valid and the page takes the user to the next registration step</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C9</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-31T14:09:39Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-03-30T18:42:15Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T10</id>
+				<title>Sign</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>Any email consists of a username and a hostname which are separated by the &quot;@&quot;.
+Checking for the presence of a sign &quot;@&quot;.</preconds>
+										<steps_separated><step>
+<index>1</index><content>Write the email without the sign &quot;@&quot; - jnzsknsa1mail.ru</content><expected>Input completed</expected></step>
+<step>
+<index>2</index><content>Click on the button &quot;Create an account&quot;</content><expected>The email is invalid</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C10</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-31T14:10:10Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-03-30T18:42:15Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T11</id>
+				<title>HostnameWithoutDot</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>Any email consists of a username and a hostname which are separated by the &quot;@&quot;. 
+Any hostname consists of several components separated by a dot.
+Сhecking the possibility of writing a hostname without a dividing dot.
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Write the email shkao6@mailru</content><expected>Input completed</expected></step>
+<step>
+<index>2</index><content>Click on the button &quot;Create an account&quot;</content><expected>The email is invalid</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C11</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-31T14:10:42Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-03-30T18:42:15Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T12</id>
+				<title>Hostname</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>Any email consists of a username and a hostname which are separated by the &quot;@&quot;. 
+Any hostname consists of several components separated by a dot. 
+The last component - suffix can only be written in Latin letters -&gt; checking the possibility of writing it in latin letters </preconds>
+										<steps_separated><step>
+<index>1</index><content>Write the email dj4ks&amp;h@mail.au</content><expected>Input completed.</expected></step>
+<step>
+<index>2</index><content>Click on the button &quot;Create an account&quot;</content><expected>The email is valid and the page takes the user to the next registration step</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C12</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-31T14:12:19Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-03-30T18:42:15Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T13</id>
+				<title>HostnameLenght</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>Any email consists of a username and a hostname which are separated by the &quot;@&quot;.
+The hostname consists of several components separated by a dot and not exceeding 63 symbols, and suffixes (first-level domains).
+Checking the length of the first part of hostname - we will use 65 symbols for this instead of possible 63
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Write an email h$sgks12@hjkiuytrdfghnbvcjoiukjmnbvfderdfswet6yuincxd56jkiytrewsaqbhjkloiu.com</content><expected>Input completed</expected></step>
+<step>
+<index>2</index><content>Click on the button &quot;Create an account&quot;</content><expected>The email is invalid</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C13</caseid>
+																<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-31T14:15:15Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>More than 63 symbols were allowed by system and email was valid - bug</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																														<custom>
+														<step_results><step>
+<content>Write an email whose the first component of the hostname is 64 or more symbols long</content><expected>Input completed</expected><actual></actual><status>Passed</status></step>
+<step>
+<content>Click on the button &quot;Create an account&quot;</content><expected>The email is invalid</expected><actual></actual><status>Failed</status></step>
+</step_results>
+													</custom>
+											</change>
+															<change>
+						<createdon>2022-03-30T18:42:15Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T14</id>
+				<title>HostnameSymbols</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>The hostname consists of several components separated by a dot and not exceeding 63 symbols, and suffixes (first-level domains). 
+Components consist of Latin letters, numbers and hyphens, and hyphens cannot be at the beginning or at the end of the component. 
+
+Checking the possibility of writing hyphens in the first component of the email hostname</preconds>
+										<steps_separated><step>
+<index>1</index><content>Write the email jls7ja@jk-mai.ru</content><expected>Input completed</expected></step>
+<step>
+<index>2</index><content>Click on the button &quot;Create an account&quot;</content><expected>The email is valid and the page takes the user to the next registration step</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C14</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-31T14:18:33Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-03-30T18:42:15Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																																												<test>
+				<id>T15</id>
+				<title>HostnameNumbers</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>Any email consists of a username and a hostname which are separated by the &quot;@&quot;.
+The hostname consists of several components separated by a dot and not exceeding 63 characters, and suffixes (first-level domains).
+Components consist of Latin letters, numbers and hyphens, and hyphens cannot be at the beginning or at the end of the component. 
+Suffixes are a limited list of first-level domains.
+
+Checking the possibility of writing latin letters and number/s in the first component of the email hostname
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Write the email kkgbgh@ma78il.ru</content><expected>Input completed</expected></step>
+<step>
+<index>2</index><content>Click on the button &quot;Create an account&quot;</content><expected>The email is valid and the page takes the user to the next registration step</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C15</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-31T14:20:36Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+															<change>
+						<createdon>2022-03-30T18:42:15Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Untested</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T16</id>
+				<title>HostnameHyphenFirst</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>Any email consists of a username and a hostname which are separated by the &quot;@&quot;.
+The hostname consists of several components separated by a dot and not exceeding 63 characters, and suffixes (first-level domains).
+Components consist of Latin letters, numbers and hyphens, and hyphens cannot be at the beginning or at the end of the component. 
+
+Сhecking the possibility of writing a hyphen as the first character in the first component of the email hostname
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Write an email wocok@-mail.ru</content><expected>Input completed</expected></step>
+<step>
+<index>2</index><content>Click on the button &quot;Create an account&quot;</content><expected>The email is invalid</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C16</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-31T14:35:08Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																													</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T17</id>
+				<title>HostnameHyphenLast</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>Проверка на наличие дефиса как последнего знака в первом компоненте имени хоста.
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Введите email wocok@mail-.ru</content><expected>Ввод выполнен</expected></step>
+<step>
+<index>2</index><content>Нажмите на кнопку &quot;Create an account&quot;</content><expected>Email не является валидным</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C17</caseid>
+																<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-31T14:37:37Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>Система определяет дефис как последний символ в первом компоненте имени хоста приемлемым и дает создать аккаунт
+
+</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																														<custom>
+														<step_results><step>
+<content>Напишите email с именем хоста, первый компонент которого содержит дефис как последний символ перед точкой и суффиксом.</content><expected>Ввод произведен</expected><actual></actual><status>Passed</status></step>
+<step>
+<content>Нажмите на кнопку &quot;Create an account&quot;</content><expected>Email не является валидным</expected><actual></actual><status>Failed</status></step>
+</step_results>
+													</custom>
+											</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T18</id>
+				<title>HostnameDomain</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>Проверка email с доменом, содержащим символы.
+</preconds>
+										<steps_separated><step>
+<index>1</index><content>Введите email hrdkdo@mail.r&amp;u</content><expected>Ввод выполнен</expected></step>
+<step>
+<index>2</index><content>Нажмите на кнопку &quot;Create an account&quot;</content><expected>Email не является валидным</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C18</caseid>
+																<status>Passed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-31T22:57:26Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Passed</status>
+												<assignedto></assignedto>
+												<comment></comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																														<custom>
+														<step_results><step>
+<content>Введите email hrdkdo@mail.r&amp;u</content><expected>Ввод выполнен</expected><actual></actual><status>Untested</status></step>
+<step>
+<content>Нажмите на кнопку &quot;Create an account&quot;</content><expected>Email не является валидным</expected><actual></actual><status>Untested</status></step>
+</step_results>
+													</custom>
+											</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T19</id>
+				<title>HostnameDomain2</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>Проверка email с доменом, содержащим  цифры.</preconds>
+										<steps_separated><step>
+<index>1</index><content>Введите email hrdkdo@mail.r7u</content><expected>Ввод выполнен</expected></step>
+<step>
+<index>2</index><content>Нажмите на кнопку &quot;Create an account&quot;</content><expected>Email не является валидным</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C19</caseid>
+																<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-31T22:58:58Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>Система позволяет использовать цифры в домене - баг</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																														<custom>
+														<step_results><step>
+<content>Введите email hrdkdo@mail.r7u</content><expected>Ввод выполнен</expected><actual></actual><status>Passed</status></step>
+<step>
+<content>Нажмите на кнопку &quot;Create an account&quot;</content><expected>Email не является валидным</expected><actual></actual><status>Failed</status></step>
+</step_results>
+													</custom>
+											</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T20</id>
+				<title>HostnameSuf</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>The last component - suffix can only be written in Latin letters.
+Checking the possibility of writing suffix in other language</preconds>
+										<steps_separated><step>
+<index>1</index><content>Write the email bhdkia@mail.ком</content><expected>Input completed</expected></step>
+<step>
+<index>2</index><content>Click on the button &quot;Create an account&quot;</content><expected>The email is not valid</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C20</caseid>
+																<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-31T23:00:20Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>Система позволяет использовать другой язык при написании домена - баг</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																														<custom>
+														<step_results><step>
+<content>Write the email bhdkia@mail.ком</content><expected>Input completed</expected><actual></actual><status>Passed</status></step>
+<step>
+<content>Click on the button &quot;Create an account&quot;</content><expected>The email is not valid</expected><actual></actual><status>Failed</status></step>
+</step_results>
+													</custom>
+											</change>
+									</changes>
+			</test>
+																																													<test>
+				<id>T21</id>
+				<title>BlankSpace</title>
+												<template>Test Case (Steps)</template>
+																<type>Other</type>
+																<priority>Medium</priority>
+																<estimate></estimate>
+																								<references></references>
+																				<custom>
+										<preconds>Email не может содержать пробелы</preconds>
+										<steps_separated><step>
+<index>1</index><content>Введите email hdjsu7 @mail.ru (с пробелом между &quot;7&quot; и &quot;@&quot;)</content><expected>Ввод завершен</expected></step>
+<step>
+<index>2</index><content>Нажмите на кнопку &quot;Create an account&quot;</content><expected>Email не является валидным</expected></step>
+</steps_separated>
+									</custom>
+												<caseid>C21</caseid>
+																<status>Failed</status>
+								<assignedto></assignedto>
+												<inprogress></inprogress>
+																																																																																						<changes>
+															<change>
+						<createdon>2022-03-31T23:01:39Z</createdon>
+																		<createdby>Tatiana Epishina</createdby>
+												<status>Failed</status>
+												<assignedto></assignedto>
+												<comment>Нельзя использовать проблемы в написании email. Система это позволяет сделать - баг
+</comment>
+																		<version></version>
+																														<elapsed></elapsed>
+																														<defects></defects>
+																														<custom>
+														<step_results><step>
+<content>Введите email hdjsu7 @mail.ru (с пробелом между &quot;7&quot; и &quot;@&quot;)</content><expected>Ввод завершен</expected><actual></actual><status>Passed</status></step>
+<step>
+<content>Нажмите на кнопку &quot;Create an account&quot;</content><expected>Email не является валидным</expected><actual></actual><status>Failed</status></step>
+</step_results>
+													</custom>
+											</change>
+									</changes>
+			</test>
+								</tests>
+							</section>
+</sections>
+			</section>
+</sections>
+</run>
